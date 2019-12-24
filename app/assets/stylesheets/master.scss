@@ -1,6 +1,15 @@
+html {
+  height: 100%;
+}
+
 body {
-  background: image_url('bg.png');
-  font-family: "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
 }
 
 .navbar {
@@ -72,5 +81,30 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(36, 32, 33, 0.9);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
+
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
   margin: 10px;
 }
