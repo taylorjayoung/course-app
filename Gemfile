@@ -43,6 +43,8 @@ gem 'devise'
 gem 'carrierwave', '~> 2.0'
 gem "mini_magick"
 gem 'stripe'
+gem 'ranked-model'
+gem 'jquery-ui-rails'
 
 
 group :development, :test do
