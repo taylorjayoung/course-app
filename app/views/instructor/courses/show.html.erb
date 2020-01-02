@@ -69,7 +69,7 @@
               <div class="col-11 text-center">
 
                 <p>
-                  <b><%= lesson.title %></b>
+                    <b><%= link_to lesson.title, lesson_path(lesson) %></b>
                 </p>
                 <p>
                   <%= lesson.subtitle %>
