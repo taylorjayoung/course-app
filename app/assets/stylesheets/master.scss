@@ -8,23 +8,16 @@ body {
   flex-direction: column;
 }
 
-#flex-content-container {
-  flex: 1;
-}
-
 .navbar {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  box-shadow: .5px .5px 3px #2a2a2a;
-  background: image_url('purty_wood/purty_wood.png');
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 200px;
+  background: image_url('white_texture');
 }
 
-.navbar-inverse a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
-  color: white;
+.navbar-light a.navbar-brand {
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: bold;
 }
-
 
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
@@ -33,11 +26,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 370px;
-  color: rgba(250,250,250,.9);
-  box-shadow: 0px 3px 8px #2a2a2a;
-
 }
-
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
@@ -45,28 +34,36 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
 }
 
 .frosty h1 {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: 'Averia Serif Libre', cursive;
   font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
 
 .frosty h2 {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  font-family: 'Averia Serif Libre', cursive;
+  font-weight: 100;
 }
 
 .btn {
   border-radius: 0;
+
 }
 
 .feature {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+
+body {
+  background: image_url('white_texture.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
 }
 
 .booyah-box {
@@ -77,33 +74,16 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 10px;
-
+  margin-top: 10px;
 }
 
 .booyah-box h2, .booyah-box h1 {
   margin: 10px;
 }
 
-#footer {
-  position: relative;
-  width: 100%;
-  min-height: 100px;
-  background-color: rgba(36, 32, 33, 0.9);
-  color: white;
-  font-family: "Helvetica Neue", Helvetica;
-  padding: 10px 0px;
-  margin-top: 30px;
-}
-
-#footer a {
-  color: white;
-  font-weight: 100;
-
-}
-
 .help-block {
   color: #ff3333;
-  background-color: #FFEEEE;
+  background-color: #ffeeee;
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
@@ -114,27 +94,95 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .lesson {
-  background-color: black;
+  background-color: #bcb8b1;
   margin-top: 10px;
-  height: 130px;
-}
-
-
-.section {
-  border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 20px;
+  min-height: 130px;
+  border-radius: 8px;
+  padding: 15px;
 }
 
 .lesson a {
-  color: white;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
+  color: black;
   font-size: 15px;
-
 }
 
 .lesson a b {
   font-weight: 100;
   font-size: 25px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  background-color: #f7f2e8;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+.lessons .fa {
+  font-size: 40px;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin: 20px;
+
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
 }
