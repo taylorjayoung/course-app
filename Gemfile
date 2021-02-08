@@ -40,7 +40,7 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem "mini_magick"
 gem 'stripe'
 gem 'ranked-model'
